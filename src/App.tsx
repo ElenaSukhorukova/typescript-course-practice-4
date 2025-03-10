@@ -1,4 +1,4 @@
-import { type ReactNode, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { get } from "./util/http";
 
 import BlogPosts, { type BlogPost } from './components/BlogPosts';
