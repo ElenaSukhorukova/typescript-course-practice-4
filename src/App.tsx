@@ -24,7 +24,7 @@ function App() {
 
      try {
       const data = (await get(
-        'https://jsonplaceholder.typicode.com/postsddddd'
+        'https://jsonplaceholder.typicode.com/posts'
       )) as RawDataBlogPost[];
 
       const blogPosts: BlogPost[] = data.map(rawPost => {
